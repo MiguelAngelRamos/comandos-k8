@@ -13,3 +13,7 @@ kubectl get pods                                  # Ver los pods en el namespace
 ```sh
 kubectl get all                                  # Ver todos los recursos (pods, servicios (svc), deployments)
 ```
+
+```sh
+kubectl get svc                                  # Ver los servicios expuestos
+```
