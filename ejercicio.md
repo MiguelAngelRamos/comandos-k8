@@ -72,3 +72,23 @@ kubectl create deployment nginx-lab --image=nginx:latest -n laboratorio
 ```sh
 kubectl get pods -n laboratorio
 ```
+
+## Como editar un deployment
+
+```sh
+kubectl edit deployment nginx-deployment
+```
+
+## Eliminar
+
+```sh
+kubectl delete deployment nginx-deployment
+```
+
+```sh
+kubectl delete svc nginx-deployment
+```
+
+```sh
+kubectl delete namespace laboratorio
+```
